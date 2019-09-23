@@ -1,0 +1,125 @@
+html {
+  background-image: url("rainbow.jpg");
+  background-size: cover;
+
+}
+
+#maintitle {
+  color:black;
+  background-color: rgba(255, 204, 255, 0.5);
+  font-family: 'PT Sans', sans-serif;
+  font-size: 55px;
+  font-style: italic;
+  padding: 30px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-size: 35px;
+}
+
+#icon{
+  margin-right: 30px;
+}
+
+.about {
+  flex: 33.33%;
+  background-color: #DBD3AD;
+  padding: 20px;
+height: 450px;
+overflow: auto;
+}
+
+.aboutcontent{
+  font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+text-align: justify;
+text-indent: 50px;
+clear: both;
+}
+
+.league{
+  text-align: justify;
+  width: 400px;
+}
+
+.libraries {
+  flex: 33.33%;
+  background-color: #E0607E;
+  padding: 20px;
+  height: 450px;
+}
+
+ul{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+li{
+  margin-top: 20px;
+}
+
+.socialmedia{
+  flex:33.33%;
+  background-color: #D36060;
+  padding: 20px;
+  height: 450px;
+}
+table{
+  border-collapse: collapse;
+  width: 100;
+margin: auto;
+}
+th, td {
+  padding: 25px;
+  text-align: center;
+  border-bottom: 2px solid black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center{
+  text-align: center;
+  margin-top: 50px;
+}
+.pagination{
+  display: inline-block;
+}
+
+.pagination a{
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active{
+  background-color: #B49594;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+#form{
+  margin-top: 50px;
+  margin-left: 550px;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
